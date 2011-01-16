@@ -1,3 +1,31 @@
 = Badgr
 
 Adds badge and achievement system to you app.
+
+= Installation into your rails app
+
+Dead simple, add this to your gemfile:
+	gem 'badgr', git => "git://github.com/Pasta/badgr.git"
+	
+And then:
+	rails g badgr
+
+
+It will add some methods to your User model (for now, the model name you can add badges onto is restricted to User) through a line you have to add into your User model:
+	include Achievements
+
+It also create a migration file that you have to run through
+	rake db:migrate
+
+= How to create an achievement?
+
+Simply run
+
+	rails g achievement YouAchievementFantasticName
+
+It should create you 3 files:
+
+1. A model, in which you have to set the condition for the badge to be earn
+2. An observer, which you can destroy or modify to observe a model to award a badge
+3. A test file to test the model. 
+	
