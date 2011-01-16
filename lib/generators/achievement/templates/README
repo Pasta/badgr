@@ -6,4 +6,6 @@ Some setup you must do manually if you haven't yet:
 
   2. Modify or destroy the generated observer. This observer is here in case you need an database badge to be awarded
 
+  3. Add config.active_record.observers = :your_observer into application.rb
+
 ===============================================================================
