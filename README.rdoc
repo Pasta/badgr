@@ -2,7 +2,7 @@
 
 Adds badge and achievement system to you app.
 Inspired by : http://stackoverflow.com/questions/885277/how-to-implement-an-achievement-system-in-ror
-= Installation into your rails app
+== Installation into your rails app
 
 Dead simple, add this to your gemfile:
 
@@ -21,7 +21,7 @@ It also create a migration file that you have to run through
 
 	rake db:migrate
 
-= How to create an achievement?
+== How to create an achievement?
 
 Simply run
 
