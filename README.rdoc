@@ -1,7 +1,11 @@
 = Badgr
 
 Adds badge and achievement system to you app.
+
 Inspired by : http://stackoverflow.com/questions/885277/how-to-implement-an-achievement-system-in-ror
+
+
+
 == Installation into your rails app
 
 Dead simple, add this to your gemfile:
