@@ -5,5 +5,5 @@ Gem::Specification.new do |s|
   s.summary = "Insert Badgr summary."
   s.description = "Insert Badgr description."
   s.files = Dir["lib/**/*"] + ["Rakefile", "README.rdoc"]
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 end
