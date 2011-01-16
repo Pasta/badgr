@@ -4,6 +4,6 @@ Gem::Specification.new do |s|
   s.name = "badgr"
   s.summary = "Insert Badgr summary."
   s.description = "Insert Badgr description."
-  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + ["Rakefile", "README.rdoc"]
   s.version = "0.0.1"
 end
