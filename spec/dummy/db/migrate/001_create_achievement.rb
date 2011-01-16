@@ -3,6 +3,7 @@ class CreateAchievement < ActiveRecord::Migration
     create_table :achievements do |t|
       t.integer :user_id
       t.string  :type
+      t.integer :level
       t.timestamps
     end
   end

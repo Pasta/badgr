@@ -7,7 +7,7 @@ require 'shoulda'
 
 ActionMailer::Base.delivery_method = :test
 ActionMailer::Base.perform_deliveries = true
-ActionMailer::Base.default_url_options[:host] = "test.com"
+ActionMailer::Base.default_url_options[:host] = "localhost:3000"
 
 Rails.backtrace_cleaner.remove_silencers!
 
@@ -18,14 +18,11 @@ ActiveRecord::Migrator.migrate File.expand_path("../dummy/db/migrate/", __FILE__
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
 
-
-
 RSpec.configure do |config|
   # Remove this line if you don't want RSpec's should and should_not
   # methods or matchers
   require 'rspec/expectations'
   config.include RSpec::Matchers
-
   # == Mock Framework
   config.mock_with :rspec
 end
