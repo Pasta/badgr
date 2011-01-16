@@ -1,0 +1,8 @@
+Description:
+   Adds a badge and achievement system to your rails app users!
+ 
+Example:
+   rails g badgr
+ 
+   This create a migration app which creates an achievement table.
+   If you want to create an achievement: rails g achievement [BADGE_NAME]

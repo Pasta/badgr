@@ -1,0 +1,9 @@
+===============================================================================
+
+Some setup you must do manually if you haven't yet:
+
+  1. Add 'include Achievements' to your User model.
+
+  2. If you want to create an achievement: rails g achievement [BADGE_NAME]
+
+===============================================================================

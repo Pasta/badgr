@@ -1,0 +1,9 @@
+Description:
+   Adds an achievement
+ 
+Example:
+   rails g achievement [NAME]
+ 
+   This create two files:
+     1 - a model file, where you have to set the conditions to earn the badge
+     2 - an observer file, which you can use to observe some models which could award the badge

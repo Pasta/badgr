@@ -1,0 +1,9 @@
+===============================================================================
+
+Some setup you must do manually if you haven't yet:
+
+  1. Modify the conditions to earn the badge into your achievement generated into app/models/achievements
+
+  2. Modify or destroy the generated observer. This observer is here in case you need an database badge to be awarded
+
+===============================================================================
