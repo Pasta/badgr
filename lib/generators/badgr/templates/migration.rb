@@ -1,4 +1,4 @@
-class CreateAchievementMigration < ActiveRecord::Migration
+class CreateAchievementTable < ActiveRecord::Migration
   def self.up
     create_table :achievements do |t|
       t.integer :user_id
