@@ -8,8 +8,8 @@ end
 describe Achievement do
   class CommentsAchievement < Achievement
     
-    level 1, :quota => 5, :name => "medium commenter"
-    level 2, :quota => 10, :name => "big commenter"
+    level 1, :quota => 5
+    level 2, :quota => 10
 
     def self.award_achievement_for user
       return unless user

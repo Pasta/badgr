@@ -12,8 +12,8 @@ class Achievement < ActiveRecord::Base
     end
 
     def level(level, options = {})
-      if not levels.include? ({:level => level, :quota => options[:quota], :name => options[:name]}) then
-        levels << {:level => level, :quota => options[:quota], :name => options[:name]}
+      if not levels.include? ({:level => level, :quota => options[:quota]}) then
+        levels << {:level => level, :quota => options[:quota]}
       end
     end
     
